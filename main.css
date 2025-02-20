@@ -92,7 +92,7 @@ main{
 }
 
 
-/* Página "index" */
+/* Página index */
 main#INDEX div p{
     background-color: rgb(221, 217, 176);
     width: 19.6em;
@@ -104,7 +104,7 @@ main#INDEX div#quemsomos{
 }
 
 main#INDEX div.sobre{
-    margin-left: 13em;
+    margin-left: 20em;
 }
 
 main#INDEX div.sobre h2{
@@ -112,12 +112,13 @@ main#INDEX div.sobre h2{
 }
 
 main#INDEX div.mitologia{
-    margin-right: 10em;
+    margin-right: 20em;
 }
 
 main#INDEX div.geral{
     display: flex;
     justify-content: space-between;
+    text-align: justify;
 }
 
 main#INDEX div.mitologia figure img{
@@ -131,7 +132,6 @@ main#INDEX div.mitologia figure img{
 main#INDEX div.mitologia p{
     width: 25em;
     margin-bottom: 2em;
-    text-align: justify;
 }
 
 main#INDEX div.mitologia h2{
@@ -140,13 +140,13 @@ main#INDEX div.mitologia h2{
 
 main#INDEX div.mitologia{
     border-left: 3px solid black;
-    padding-left: 5em;
+    padding-left: 13em;
 }
 
 main#INDEX div.diferencas{
     display: flex;
     align-items: center;
-    margin-left: 4em;
+    margin-left: 15em;
 }
 
 main#INDEX div.grega{
@@ -161,8 +161,12 @@ main#INDEX div.grega h3, div.romana h3{
 
 main#INDEX h2.pd{
     margin-top: 4em;
-    margin-left: 13em;
+    margin-left: 20em;
     margin-bottom: 1.5em;
+}
+
+main#INDEX h3{
+    font-size: 1.3em;
 }
 
 main#INDEX div.romana p, div.grega p{
@@ -175,7 +179,8 @@ main#INDEX div.fotos{
     display: flex;
     flex-wrap: wrap;
     width: 40em;
-    margin-left: 7em;
+    margin-right: 15em;
+    justify-content: right;
 }
 
 main#INDEX div.fotos img{
