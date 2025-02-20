@@ -188,4 +188,29 @@ main#INDEX div.fotos img{
     height: 8em;
     margin: 1em;
     border: 1px solid rgb(59,47,10);
-} 
+}
+
+/* Página "DEUSES" */
+main#DEUSES .olimpo{
+    text-align: center;
+}
+
+main#DEUSES div.deus{
+    display: flex;
+    margin-top: 3em;
+    width: 30em;
+    align-items: center;
+}
+
+main#DEUSES div.deus figure img{
+    width: 15em;
+    height: 22em;
+}
+
+main#DEUSES div.sobre h2{
+    text-align: center;
+}
+
+main#DEUSES div.todos{
+    display: flex;
+}
