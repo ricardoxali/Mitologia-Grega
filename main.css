@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(59,47,10);
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logotipo{
+    width: 8em;
+    height: auto;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    margin-top: 0.2em;
+}
+
+header img{
+    height: 3.7em;
+    margin-bottom: 0.3em;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+header nav{
+    background-color: rgb(221, 217, 176);
+    padding: 1.4em;  
+}
+
+ul li a{
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    background-color: rgb(150, 146, 105);
+    padding: 1em;
+    border-radius: 1.3em;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(59,47,10);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-size: 1.1em;
+}
+
+footer ul li img{
+    width: 18px;
+    height: auto;
+    background-color: rgb(127, 119, 94);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+footer ul li{
+    margin: 0.3em;
+}
+
+footer img{
+    height: 4.5em;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    width: 8em;
+    flex-wrap: wrap;
+}
+
+
+main{
+    background-color: rgb(248, 246, 243);
+    padding: 1em;
+    padding-top: 3em;
+}
+
+
+/* Página "index" */
+main#INDEX div p{
+    background-color: rgb(221, 217, 176);
+    width: 19.6em;
+    padding: 1em;
+}
+
+main#INDEX div#quemsomos{
+    margin-bottom: 5.5em;
+}
+
+main#INDEX div.sobre{
+    margin-left: 13em;
+}
+
+main#INDEX div.sobre h2{
+    margin: 0;
+}
+
+main#INDEX div.mitologia{
+    margin-right: 10em;
+}
+
+main#INDEX div.geral{
+    display: flex;
+    justify-content: space-between;
+}
+
+main#INDEX div.mitologia figure img{
+    float: right;
+    width: 11.2em;
+    margin: 1em;
+    margin-bottom: 0.3em;
+    border: 2px solid rgb(59,47,10);
+}
+
+main#INDEX div.mitologia p{
+    width: 25em;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+main#INDEX div.mitologia h2{
+    text-align: center;
+}
+
+main#INDEX div.mitologia{
+    border-left: 3px solid black;
+    padding-left: 5em;
+}
+
+main#INDEX div.diferencas{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+main#INDEX div.grega{
+    margin-left: 2em;
+    border-left: 3px solid black;
+    padding-left: 2em;
+}
+
+main#INDEX div.grega h3, div.romana h3{
+    text-align: center;
+}
+
+main#INDEX h2.pd{
+    margin-top: 4em;
+    margin-left: 13em;
+    margin-bottom: 1.5em;
+}
+
+main#INDEX div.romana p, div.grega p{
+    height: 17.6em;
+    width: 19.1em;
+    margin-bottom: 1em;
+}
+
+main#INDEX div.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40em;
+    margin-left: 7em;
+}
+
+main#INDEX div.fotos img{
+    width: 8em;
+    height: 8em;
+    margin: 1em;
+    border: 1px solid rgb(59,47,10);
+} 
