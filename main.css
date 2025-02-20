@@ -193,11 +193,16 @@ main#INDEX div.fotos img{
 /* Página "DEUSES" */
 main#DEUSES .olimpo{
     text-align: center;
+    margin-top: 0;
+}
+
+main#DEUSES p.olimpo{
+    margin-bottom: 4em;
 }
 
 main#DEUSES div.deus{
     display: flex;
-    margin-top: 3em;
+    margin-bottom: 5em;
     width: 30em;
     align-items: center;
 }
@@ -205,12 +210,73 @@ main#DEUSES div.deus{
 main#DEUSES div.deus figure img{
     width: 15em;
     height: 22em;
+    border-radius: 0.5em;
+}
+
+main#DEUSES div.sobre{
+    margin-left: 1.5em;
 }
 
 main#DEUSES div.sobre h2{
     text-align: center;
 }
 
+main#DEUSES div.sobre p{
+    width: 17em;
+    background-color: rgb(221, 217, 176);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
 main#DEUSES div.todos{
     display: flex;
+    justify-content: center;
+}
+
+main#DEUSES div.direito{
+    margin-top: 13em;
+    margin-left: 4em;
+}
+
+main#DEUSES div.esquerdo{
+    border-right: 3px solid black;
+    padding-right: 10em;
+    margin-left: -6em;
+}
+
+main#DEUSES h2, figure{
+    text-align: center;
+}
+
+main#DEUSES ul li img{
+    width: 20em;
+    height: 20em;
+    border-radius: 0.3em;
+}
+
+main#DEUSES ul{
+    list-style-type: none;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+main#DEUSES h2.dm{
+    text-align: left;
+}
+
+main#DEUSES h2{
+    margin-top: 3em;
+}
+
+main#DEUSES ul li{
+    width: 15em;
+}
+
+main#DEUSES ul li p{
+    background-color: rgb(221, 217, 176);
+    padding: 0.5em;
+    border-radius: 0.5em;
 }
