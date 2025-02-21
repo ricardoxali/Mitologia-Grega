@@ -8,10 +8,9 @@ header{
     background-color: rgb(59,47,10);
 }
 
-header div{
+header h1{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 img.logotipo{
@@ -19,12 +18,16 @@ img.logotipo{
     height: auto;
     margin-left: 0.7em;
     margin-right: 0.7em;
-    margin-top: 0.2em;
+}
+
+img.oliveira{
+    height: 1.7em;
 }
 
 header img{
     height: 3.7em;
     margin-bottom: 0.3em;
+    margin-top: 0.3em;
 }
 
 header nav ul{
@@ -38,7 +41,11 @@ header nav{
     padding: 1.4em;  
 }
 
-ul li a{
+header nav ul li a:hover{
+    background-color: rgb(127, 119, 94);
+}
+
+header nav ul li a{
     color: white;
     font-size: 0.9em;
     text-decoration: none;
@@ -83,7 +90,6 @@ footer ul{
     width: 8em;
     flex-wrap: wrap;
 }
-
 
 main{
     background-color: rgb(248, 246, 243);
@@ -249,8 +255,8 @@ main#DEUSES h2, figure{
 }
 
 main#DEUSES ul li img{
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 15em;
     border-radius: 0.3em;
 }
 
@@ -261,22 +267,23 @@ main#DEUSES ul{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    width: 110em;
 }
 
 main#DEUSES h2.dm{
     text-align: left;
-}
-
-main#DEUSES h2{
     margin-top: 3em;
 }
 
 main#DEUSES ul li{
     width: 15em;
+    margin: 4em;
+    margin-top: 0;
 }
 
 main#DEUSES ul li p{
     background-color: rgb(221, 217, 176);
     padding: 0.5em;
     border-radius: 0.5em;
+    text-align: left;
 }
