@@ -197,7 +197,7 @@ main#INDEX div.fotos img{
     width: 8em;
     height: 8em;
     margin: 1em;
-    border: 1px solid rgb(59,47,10);
+    border: 2px solid rgb(59,47,10);
 }
 
 /* Página "DEUSES" */
@@ -362,3 +362,90 @@ main#MITOSEOBRAS .mito{
     text-align: center;
 }
 
+main#MITOSEOBRAS div.fotos img{
+    width: 15em;
+    height: 15em;
+    margin-bottom: 1em;
+    border: 2px solid rgb(59,47,10);
+    border-radius: 0.5em;
+}
+
+main#MITOSEOBRAS div.guerras{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+main#MITOSEOBRAS div.titanomaquia{
+    display: flex;
+    border-right: 3px solid black;
+    padding-right: 3em;
+}
+
+main#MITOSEOBRAS div.troia{
+    display: flex;
+    margin-left: 3em;
+}
+
+main#MITOSEOBRAS div.guerras div.sobre{
+    margin-left: 3em;
+}
+
+main#MITOSEOBRAS div.sobre p{
+    text-align: left;
+    width: 20em;
+    background-color: rgb(221, 217, 176);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+main#MITOSEOBRAS div.sobre h2{
+    text-align: center;
+}
+
+main#MITOSEOBRAS div.mito{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+main#MITOSEOBRAS div.mito div.sobre h2{
+    text-align: center;
+}
+
+main#MITOSEOBRAS div.mito div.sobre p{
+    text-align: left;
+    background-color: rgb(221, 217, 176);
+    border-radius: 0.5em;
+    width: 25em;
+}
+
+main#MITOSEOBRAS div.mito img{
+    border: 2px solid rgb(59,47,10);
+    border-radius: 0.5em;
+    width: 11em;
+    height: 11em;
+}
+
+main#MITOSEOBRAS div.esquerda img{
+    margin-left: 2em;
+}
+
+main#MITOSEOBRAS div.direita img{
+    margin-right: 2em;
+}
+
+main#MITOSEOBRAS div.todos{
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+}
+
+main#MITOSEOBRAS div.esquerda{
+    border-right: 3px solid black;
+    padding-right: 4em
+}
+
+main#MITOSEOBRAS div.direita{
+    margin-left: 4em;
+}
