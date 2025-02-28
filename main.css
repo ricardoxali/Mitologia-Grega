@@ -107,6 +107,7 @@ main#INDEX div p{
     background-color: rgb(221, 217, 176);
     width: 19.6em;
     padding: 1em;
+    border-radius: 0.5em;
 }
 
 main#INDEX div#quemsomos{
@@ -328,6 +329,10 @@ main#CRIATURAS .criat{
     text-align: center;
 }
 
+main#CRIATURAS p.criat{
+    margin-bottom: 4em;
+}
+
 main#CRIATURAS div.todos{
     display: flex;
     justify-content: center;
@@ -383,7 +388,7 @@ main#MITOSEOBRAS div.fotos img{
 }
 
 main#MITOSEOBRAS div.guerras{
-    margin-top: 3em;
+    margin-top: 4em;
     display: flex;
     justify-content: center;
 }
@@ -462,12 +467,12 @@ main#MITOSEOBRAS div.direito{
 main#MITOSEOBRAS h3.hg{
     text-align: left;
     margin-top: 7em;
-    margin-left: 2em;
+    margin-left: 6em;
     font-size: 1.5em;
 }
 
 main#MITOSEOBRAS p.hg{
-    margin-left: 3em;
+    margin-left: 9em;
     text-align: left;
     margin-right: 3em;
     width: 70em;
@@ -534,7 +539,7 @@ main#MITOSEOBRAS ul{
 main#MITOSEOBRAS h2.orc{
     text-align: left;
     margin-top: 7em;
-    margin-left: 2em;
+    margin-left: 6em;
 }
 
 main#MITOSEOBRAS ul li{
@@ -558,3 +563,36 @@ main#MITOSEOBRAS ul li h3{
 }
 
 /* Página "SUGESTÕES E FEEDBACK" */
+main#FEEDBACK{
+    height: 100%;
+}
+
+main#FEEDBACK div{
+    display: flex;
+    justify-content: center;
+}
+
+main#FEEDBACK h2{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+main#FEEDBACK form{
+    background-color: rgb(150, 146, 105);
+    padding: 2em;
+    color: whitesmoke;
+    border-radius: 2em;
+    justify-content: space-between;
+}
+
+main#FEEDBACK form input{
+    background-color: rgb(221, 217, 176);
+    border: 0;
+    border-radius: 1em;
+}
+
+main#FEEDBACK form textarea{
+    width: 40em;
+    resize: none;
+    background-color: rgb(221, 217, 176);
+}
