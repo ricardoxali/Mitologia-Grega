@@ -201,12 +201,12 @@ main#INDEX div.fotos img{
 }
 
 /* Página "DEUSES" */
-main#DEUSES .olimpo{
+main#DEUSES .deuses{
     text-align: center;
     margin-top: 0;
 }
 
-main#DEUSES p.olimpo{
+main#DEUSES p.deuses{
     margin-bottom: 4em;
     width: 53%;
     margin-left: auto;
@@ -231,8 +231,9 @@ main#DEUSES div.sobre{
     margin-left: 1.5em;
 }
 
-main#DEUSES div.sobre h2{
+main#DEUSES div.sobre h3{
     text-align: center;
+    font-size: 1.5em;
 }
 
 main#DEUSES div.sobre p{
@@ -289,10 +290,11 @@ main#DEUSES ul{
     width: 110em;
 }
 
-main#DEUSES h2.dm{
+main#DEUSES h3.dm{
     text-align: left;
     margin-top: 3em;
     margin-left: 2em;
+    font-size: 1.5em;
 }
 
 main#DEUSES p.dm{
@@ -316,7 +318,16 @@ main#DEUSES ul li p{
     width: 16.1em;
 }
 
+main#DEUSES ul li h4{
+    font-size: 1.25em;
+    margin: 0.25em;
+}
+
 /* Página "CRIATURAS" */
+main#CRIATURAS .criat{
+    text-align: center;
+}
+
 main#CRIATURAS div.todos{
     display: flex;
     justify-content: center;
@@ -400,7 +411,8 @@ main#MITOSEOBRAS div.sobre p{
     border-radius: 0.5em;
 }
 
-main#MITOSEOBRAS div.sobre h2{
+main#MITOSEOBRAS div.sobre h3{
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -408,10 +420,6 @@ main#MITOSEOBRAS div.mito{
     display: flex;
     align-items: center;
     margin-bottom: 7em;
-}
-
-main#MITOSEOBRAS div.mito div.sobre h2{
-    text-align: center;
 }
 
 main#MITOSEOBRAS div.mito div.sobre p{
@@ -451,10 +459,11 @@ main#MITOSEOBRAS div.direito{
     margin-left: 4em;
 }
 
-main#MITOSEOBRAS h2.hg{
+main#MITOSEOBRAS h3.hg{
     text-align: left;
-    margin-top: 3em;
+    margin-top: 7em;
     margin-left: 2em;
+    font-size: 1.5em;
 }
 
 main#MITOSEOBRAS p.hg{
@@ -481,9 +490,10 @@ main#MITOSEOBRAS div.heroi p{
     border-radius: 0.5em;
 }
 
-main#MITOSEOBRAS div.heroi h2{
+main#MITOSEOBRAS div.heroi h4{
     text-align: center;
     margin-bottom: 0.7em;
+    font-size: 1.5em;
 }
 
 main#MITOSEOBRAS div.esquerda{
@@ -498,3 +508,53 @@ main#MITOSEOBRAS div.direita{
 main#MITOSEOBRAS div.heroi{
     margin-bottom: 3em;
 }
+
+main#MITOSEOBRAS div.heroi h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+main#MITOSEOBRAS ul li img{
+    width: 22em;
+    height: 14em;
+    border-radius: 0.3em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(59,47,10);
+}
+
+main#MITOSEOBRAS ul{
+    list-style-type: none;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+main#MITOSEOBRAS h2.orc{
+    text-align: left;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+main#MITOSEOBRAS ul li{
+    width: auto;
+    margin: 8em;
+    margin-top: 0;
+    margin-bottom: 4em;
+}
+
+main#MITOSEOBRAS ul li p{
+    background-color: rgb(221, 217, 176);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: left;
+    width: 21.5em;
+}
+
+main#MITOSEOBRAS ul li h3{
+    font-size: 1.25em;
+    margin: 0.25em;
+}
+
+/* Página "SUGESTÕES E FEEDBACK" */
