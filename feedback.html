@@ -28,21 +28,23 @@
     <main id="FEEDBACK">
         <h2>Sugestões e Feedback</h2>
         <div>
-            <form>
+            <form action="obrigado.html">
                 <label for="nome">Nome: </label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" required>
                 <label for="sexo">Sexo: </label>
                 <select name="sexo" id="sexo">
+                    <option value="None" hidden></option>
                     <option value="m">M</option>
                     <option value="f">F</option>
                 </select>
                 <label for="idade">Idade: </label>
-                <input type="number" id="idade">
+                <input type="number" id="idade" min="1" max="99" required>
                 <br>
                 <label for="E-mail">E-mail: </label>
-                <input type="email" id="E-mail">
+                <input type="email" id="E-mail" required>
                 <label for="Telefone">Telefone: </label>
                 <select name="ddd" id="ddd">
+                    <option value="None" hidden></option>
                     <option value="11">011</option>
                     <option value="12">012</option>
                     <option value="13">013</option>
@@ -82,7 +84,7 @@
                     <option value="64">064</option>
                     <option value="65">065</option>
                     <option value="66">066</option>
-                    <option value="67">607</option>
+                    <option value="67">067</option>
                     <option value="68">068</option>
                     <option value="69">069</option>
                     <option value="71">071</option>
@@ -113,7 +115,7 @@
                 <br>
                 <label for="feedback">Feedback: </label>
                 <br>
-                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" required></textarea>
                 <br>
                 <input type="submit" value="ENVIAR">
             </form>

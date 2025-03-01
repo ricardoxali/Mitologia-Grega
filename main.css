@@ -584,6 +584,7 @@ main#FEEDBACK form{
     border-radius: 2em;
     justify-content: space-between;
     font-weight: 520;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main#FEEDBACK form input{
@@ -593,7 +594,6 @@ main#FEEDBACK form input{
     padding: 0.1em;
     padding-left: 0.5em;
     font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -606,8 +606,13 @@ main#FEEDBACK form select{
     padding-left: 0.3em;
 }
 
+main#FEEDBACK form select option{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 main#FEEDBACK form input#idade{
     width: 2.2em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main#FEEDBACK form input{
@@ -627,6 +632,7 @@ main#FEEDBACK form input#Telefone{
     width: 6em;
     text-align: center;
     padding-left: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main#FEEDBACK form input#E-mail{
@@ -657,6 +663,21 @@ main#FEEDBACK form input[type="submit"]{
 
 main#FEEDBACK form input[type="submit"]:hover{
     cursor: pointer;
-    background-color: rgb(177, 142, 17);
-    color: rgb(114, 93, 18);
+    background-color: rgb(207, 180, 57);
+    color: whitesmoke;
+}
+
+/* Página depois que envia o formulário */
+main#OBRIGADO h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+main#OBRIGADO p{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2.7em;
+    font-size: 1.5em;
+    width: 26em;
 }
