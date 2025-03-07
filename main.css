@@ -391,7 +391,7 @@ main#MITOSEOBRAS div.fotos img{
     width: 17em;
     height: 17em;
     margin-top: 2.2em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
     border: 2px solid rgb(59,47,10);
     border-radius: 0.5em;
 }
@@ -441,7 +441,7 @@ main#MITOSEOBRAS div.mito div.sobre p{
     text-align: left;
     background-color: rgb(221, 217, 176);
     border-radius: 0.5em;
-    width: 30em;
+    width: 32em;
 }
 
 main#MITOSEOBRAS div.mito img{
@@ -462,7 +462,7 @@ main#MITOSEOBRAS div.direito img{
 
 main#MITOSEOBRAS div.todos{
     display: flex;
-    margin-top: 5em;
+    margin-top: 10em;
     justify-content: center;
 }
 
@@ -478,12 +478,12 @@ main#MITOSEOBRAS div.direito{
 main#MITOSEOBRAS h3.hg{
     text-align: left;
     margin-top: 7em;
-    margin-left: 6em;
+    margin-left: 4em;
     font-size: 1.5em;
 }
 
 main#MITOSEOBRAS p.hg{
-    margin-left: 9em;
+    margin-left: 6em;
     text-align: left;
     margin-right: 3em;
     width: 70em;
