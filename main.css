@@ -388,9 +388,10 @@ main#MITOSEOBRAS p.mito{
 }
 
 main#MITOSEOBRAS div.fotos img{
-    width: 13em;
-    height: 13em;
-    margin-bottom: 1.8em;
+    width: 17em;
+    height: 17em;
+    margin-top: 2.2em;
+    margin-bottom: 0.2em;
     border: 2px solid rgb(59,47,10);
     border-radius: 0.5em;
 }
@@ -404,20 +405,22 @@ main#MITOSEOBRAS div.titanomaquia{
     display: flex;
     border-right: 3px solid black;
     padding-right: 3em;
+    align-items: center;
 }
 
 main#MITOSEOBRAS div.troia{
     display: flex;
     margin-left: 3em;
+    align-items: center;
 }
 
 main#MITOSEOBRAS div.guerras div.sobre{
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 main#MITOSEOBRAS div.sobre p{
     text-align: left;
-    width: 20em;
+    width: 20.9em;
     background-color: rgb(221, 217, 176);
     padding: 1em;
     border-radius: 0.5em;
@@ -438,14 +441,15 @@ main#MITOSEOBRAS div.mito div.sobre p{
     text-align: left;
     background-color: rgb(221, 217, 176);
     border-radius: 0.5em;
-    width: 20em;
+    width: 30em;
 }
 
 main#MITOSEOBRAS div.mito img{
     border: 2px solid rgb(59,47,10);
     border-radius: 0.5em;
-    width: 11em;
-    height: 11em;
+    width: 13em;
+    height: 13em;
+    margin-top: 1.7em;
 }
 
 main#MITOSEOBRAS div.esquerdo img{
