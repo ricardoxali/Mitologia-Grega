@@ -22,6 +22,11 @@ header h1 a{
     text-decoration: none;
 }
 
+header img{
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
 img.logotipo{
     width: 8em;
     height: auto;
@@ -33,25 +38,15 @@ img.oliveira{
     height: 1.7em;
 }
 
-header img{
-    margin-bottom: 0.3em;
-    margin-top: 0.3em;
+header nav{
+    background-color: rgb(102, 94, 68);
+    padding: 1.4em;  
 }
 
 header nav ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-}
-
-header nav{
-    background-color: rgb(102, 94, 68);
-    padding: 1.4em;  
-}
-
-header nav ul li a:hover{
-    background-color: rgb(221, 217, 176);
-    color: black;
 }
 
 header nav ul li a{
@@ -63,6 +58,16 @@ header nav ul li a{
     border-radius: 1.3em;
 }
 
+header nav ul li a:hover{
+    background-color: rgb(221, 217, 176);
+    color: black;
+}
+
+main{
+    padding: 1em;
+    padding-top: 3em;
+}
+
 footer{
     display: flex;
     background-color: rgb(59,47,10);
@@ -72,9 +77,15 @@ footer{
     align-items: center;
 }
 
-footer p{
-    color: white;
-    font-size: 1.1em;
+footer ul{
+    display: flex;
+    list-style-type: none;
+    width: 8em;
+    flex-wrap: wrap;
+}
+
+footer ul li{
+    margin: 0.3em;
 }
 
 footer ul li img{
@@ -85,28 +96,22 @@ footer ul li img{
     border-radius: 0.5em;
 }
 
-footer ul li{
-    margin: 0.3em;
+footer p{
+    color: white;
+    font-size: 1.1em;
 }
 
 footer img{
     height: 4.5em;
 }
 
-footer ul{
-    display: flex;
-    list-style-type: none;
-    width: 8em;
-    flex-wrap: wrap;
-}
-
-main{
-    padding: 1em;
-    padding-top: 3em;
-}
-
-
 /* Página index */
+main#INDEX div.geral{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
 main#INDEX div p{
     background-color: rgb(221, 217, 176);
     width: 19.6em;
@@ -114,26 +119,22 @@ main#INDEX div p{
     border-radius: 0.5em;
 }
 
-main#INDEX div#quemsomos{
-    margin-bottom: 5.5em;
-}
-
 main#INDEX div.sobre{
     margin-left: 20em;
 }
 
-main#INDEX div.sobre h2{
-    margin: 0;
+main#INDEX div.quemsomos{
+    margin-bottom: 5.5em;
 }
 
 main#INDEX div.mitologia{
     margin-right: 20em;
+    border-left: 3px solid black;
+    padding-left: 11em;
 }
 
-main#INDEX div.geral{
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
+main#INDEX div.mitologia h2{
+    text-align: center;
 }
 
 main#INDEX div.mitologia figure img{
@@ -149,13 +150,10 @@ main#INDEX div.mitologia p{
     margin-bottom: 2em;
 }
 
-main#INDEX div.mitologia h2{
-    text-align: center;
-}
-
-main#INDEX div.mitologia{
-    border-left: 3px solid black;
-    padding-left: 13em;
+main#INDEX h2.pd{
+    margin-top: 4em;
+    margin-left: 20em;
+    margin-bottom: 1.5em;
 }
 
 main#INDEX div.diferencas{
@@ -172,15 +170,6 @@ main#INDEX div.grega{
 
 main#INDEX div.grega h3, div.romana h3{
     text-align: center;
-}
-
-main#INDEX h2.pd{
-    margin-top: 4em;
-    margin-left: 20em;
-    margin-bottom: 1.5em;
-}
-
-main#INDEX h3{
     font-size: 1.3em;
 }
 
@@ -208,7 +197,6 @@ main#INDEX div.fotos img{
 /* Página "DEUSES" */
 main#DEUSES .deuses{
     text-align: center;
-    margin-top: 0;
 }
 
 main#DEUSES p.deuses{
@@ -216,6 +204,22 @@ main#DEUSES p.deuses{
     width: 53%;
     margin-left: auto;
     margin-right: auto;
+}
+
+main#DEUSES div.todos{
+    display: flex;
+    justify-content: center;
+}
+
+main#DEUSES div.esquerdo{
+    border-right: 3px solid black;
+    padding-right: 10em;
+    margin-left: -6em;
+}
+
+main#DEUSES div.direito{
+    margin-top: 13em;
+    margin-left: 4em;
 }
 
 main#DEUSES div.deus{
@@ -248,51 +252,18 @@ main#DEUSES div.sobre p{
     border-radius: 0.5em;
 }
 
-main#DEUSES div.todos{
-    display: flex;
-    justify-content: center;
-}
-
-main#DEUSES div.direito{
-    margin-top: 13em;
-    margin-left: 4em;
-}
-
-main#DEUSES div.esquerdo{
-    border-right: 3px solid black;
-    padding-right: 10em;
-    margin-left: -6em;
-}
-
-main#DEUSES h2, figure{
+main#DEUSES aside h2{
     text-align: center;
-}
-
-main#DEUSES figure img{
-    border-radius: 0.5em;
-    border: 2px solid rgb(59,47,10);
-}
-
-main#DEUSES h2.linhagem{
     margin-top: 3em;
 }
 
-main#DEUSES ul li img{
-    width: 16.9em;
-    height: 16.9em;
-    border-radius: 0.3em;
-    border-radius: 0.5em;
-    border: 2px solid rgb(59,47,10);
+main#DEUSES aside figure{
+    text-align: center;
 }
 
-main#DEUSES ul{
-    list-style-type: none;
-    margin-top: 3em;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    width: 110em;
+main#DEUSES aside figure img{
+    border-radius: 0.5em;
+    border: 2px solid rgb(59,47,10);
 }
 
 main#DEUSES h3.dm{
@@ -309,10 +280,33 @@ main#DEUSES p.dm{
     width: 70em;
 }
 
+main#DEUSES ul{
+    list-style-type: none;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 110em;
+}
+
 main#DEUSES ul li{
     width: auto;
     margin: 4em;
     margin-top: 0;
+}
+
+main#DEUSES ul li img{
+    width: 16.9em;
+    height: 16.9em;
+    border-radius: 0.3em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(59,47,10);
+}
+
+main#DEUSES ul li h4{
+    font-size: 1.25em;
+    margin: 0.25em;
 }
 
 main#DEUSES ul li p{
@@ -321,11 +315,6 @@ main#DEUSES ul li p{
     border-radius: 0.5em;
     text-align: left;
     width: 16.1em;
-}
-
-main#DEUSES ul li h4{
-    font-size: 1.25em;
-    margin: 0.25em;
 }
 
 /* Página "CRIATURAS" */
@@ -342,7 +331,24 @@ main#CRIATURAS p.criat{
 main#CRIATURAS div.todos{
     display: flex;
     justify-content: center;
+}
 
+main#CRIATURAS div.esquerdo{
+    border-right: 3px solid black;
+    padding-right: 10em;
+}
+
+main#CRIATURAS div.direito{
+    margin-left: 10em;
+}
+
+main#CRIATURAS div.criatura{
+    margin-bottom: 3em;
+}
+
+main#CRIATURAS div.criatura h2{
+    text-align: center;
+    margin-bottom: 0.7em;
 }
 
 main#CRIATURAS div.criatura figure img{
@@ -362,24 +368,6 @@ main#CRIATURAS div.criatura p{
     border-radius: 0.5em;
 }
 
-main#CRIATURAS div.criatura h2{
-    text-align: center;
-    margin-bottom: 0.7em;
-}
-
-main#CRIATURAS div.direito{
-    margin-left: 10em;
-}
-
-main#CRIATURAS div.esquerdo{
-    border-right: 3px solid black;
-    padding-right: 10em;
-}
-
-main#CRIATURAS div.criatura{
-    margin-bottom: 3em;
-}
-
 /* Página "MITOS E OBRAS" */
 main#MITOSEOBRAS .mito{
     text-align: center;
@@ -391,18 +379,10 @@ main#MITOSEOBRAS p.mito{
     margin-bottom: 4em;
 }
 
-main#MITOSEOBRAS div.fotos img{
-    width: 17em;
-    height: 17em;
-    margin-top: 2.2em;
-    margin-bottom: 0.5em;
-    border: 2px solid rgb(59,47,10);
-    border-radius: 0.5em;
-}
-
 main#MITOSEOBRAS div.guerras{
     display: flex;
     justify-content: center;
+    margin-bottom: 10em;
 }
 
 main#MITOSEOBRAS div.titanomaquia{
@@ -418,8 +398,22 @@ main#MITOSEOBRAS div.troia{
     align-items: center;
 }
 
-main#MITOSEOBRAS div.guerras div.sobre{
+main#MITOSEOBRAS div.fotos img{
+    width: 17em;
+    height: 17em;
+    margin-top: 2.2em;
+    margin-bottom: 0.5em;
+    border: 2px solid rgb(59,47,10);
+    border-radius: 0.5em;
+}
+
+main#MITOSEOBRAS div.sobre{
     margin-left: 2em;
+}
+
+main#MITOSEOBRAS div.sobre h3{
+    font-size: 1.5em;
+    text-align: center;
 }
 
 main#MITOSEOBRAS div.sobre p{
@@ -430,9 +424,18 @@ main#MITOSEOBRAS div.sobre p{
     border-radius: 0.5em;
 }
 
-main#MITOSEOBRAS div.sobre h3{
-    font-size: 1.5em;
-    text-align: center;
+main#MITOSEOBRAS div.todos{
+    display: flex;
+    justify-content: center;
+}
+
+main#MITOSEOBRAS div.esquerdo{
+    border-right: 3px solid black;
+    padding-right: 4em
+}
+
+main#MITOSEOBRAS div.direito{
+    margin-left: 4em;
 }
 
 main#MITOSEOBRAS div.mito{
@@ -441,11 +444,13 @@ main#MITOSEOBRAS div.mito{
     margin-bottom: 7em;
 }
 
+
 main#MITOSEOBRAS div.mito div.sobre p{
     text-align: left;
     background-color: rgb(221, 217, 176);
     border-radius: 0.5em;
-    width: 32em;
+    width: 28em;
+    text-align: justify;
 }
 
 main#MITOSEOBRAS div.mito img{
@@ -464,21 +469,6 @@ main#MITOSEOBRAS div.direito img{
     margin-right: 2em;
 }
 
-main#MITOSEOBRAS div.todos{
-    display: flex;
-    margin-top: 10em;
-    justify-content: center;
-}
-
-main#MITOSEOBRAS div.esquerdo{
-    border-right: 3px solid black;
-    padding-right: 4em
-}
-
-main#MITOSEOBRAS div.direito{
-    margin-left: 4em;
-}
-
 main#MITOSEOBRAS h3.hg{
     text-align: left;
     margin-top: 7em;
@@ -490,30 +480,8 @@ main#MITOSEOBRAS p.hg{
     margin-left: 6em;
     text-align: left;
     margin-right: 3em;
+    margin-bottom: 5em;
     width: 70em;
-}
-
-main#MITOSEOBRAS div.heroi figure img{
-    float: left;
-    width: 11.2em;
-    height: 11.2em;
-    margin: 1em;
-    margin-bottom: 0.3em;
-    border: 2px solid rgb(59,47,10);
-    border-radius: 0.25em;
-}
-
-main#MITOSEOBRAS div.heroi p{
-    padding: 1em;
-    width: 26.5em;
-    background-color: rgb(221, 217, 176);
-    border-radius: 0.5em;
-}
-
-main#MITOSEOBRAS div.heroi h4{
-    text-align: center;
-    margin-bottom: 0.7em;
-    font-size: 1.5em;
 }
 
 main#MITOSEOBRAS div.esquerda{
@@ -530,17 +498,34 @@ main#MITOSEOBRAS div.heroi{
     margin-bottom: 7em;
 }
 
-main#MITOSEOBRAS div.heroi h3{
-    font-size: 2em;
+main#MITOSEOBRAS div.heroi h4{
     text-align: center;
+    margin-bottom: 0.7em;
+    font-size: 1.5em;
 }
 
-main#MITOSEOBRAS ul li img{
-    width: 22em;
-    height: 14em;
-    border-radius: 0.3em;
-    border-radius: 0.5em;
+main#MITOSEOBRAS div.heroi figure img{
+    float: left;
+    width: 11.2em;
+    height: 11.2em;
+    margin: 1em;
+    margin-bottom: 0.3em;
     border: 2px solid rgb(59,47,10);
+    border-radius: 0.25em;
+}
+
+main#MITOSEOBRAS div.heroi p{
+    padding: 1em;
+    width: 28.3em;
+    background-color: rgb(221, 217, 176);
+    border-radius: 0.5em;
+    text-align: justify;
+}
+
+main#MITOSEOBRAS h2.orc{
+    text-align: left;
+    margin-top: 7em;
+    margin-left: 6em;
 }
 
 main#MITOSEOBRAS ul{
@@ -552,17 +537,24 @@ main#MITOSEOBRAS ul{
     justify-content: center;
 }
 
-main#MITOSEOBRAS h2.orc{
-    text-align: left;
-    margin-top: 7em;
-    margin-left: 6em;
-}
-
 main#MITOSEOBRAS ul li{
     width: auto;
     margin: 8em;
     margin-top: 0;
     margin-bottom: 4em;
+}
+
+main#MITOSEOBRAS ul li img{
+    width: 22em;
+    height: 14em;
+    border-radius: 0.3em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(59,47,10);
+}
+
+main#MITOSEOBRAS ul li h3{
+    font-size: 1.25em;
+    margin: 0.25em;
 }
 
 main#MITOSEOBRAS ul li p{
@@ -571,11 +563,7 @@ main#MITOSEOBRAS ul li p{
     border-radius: 0.5em;
     text-align: left;
     width: 21.5em;
-}
-
-main#MITOSEOBRAS ul li h3{
-    font-size: 1.25em;
-    margin: 0.25em;
+    text-align: justify;
 }
 
 /* Página "SUGESTÕES E FEEDBACK" */
@@ -583,14 +571,14 @@ main#FEEDBACK{
     height: 100%;
 }
 
-main#FEEDBACK div{
-    display: flex;
-    justify-content: center;
-}
-
 main#FEEDBACK h2{
     text-align: center;
     margin-bottom: 1em;
+}
+
+main#FEEDBACK div{
+    display: flex;
+    justify-content: center;
 }
 
 main#FEEDBACK form{
@@ -610,6 +598,7 @@ main#FEEDBACK form input{
     padding: 0.1em;
     padding-left: 0.5em;
     font-size: 1em;
+    margin-bottom: 2em;
 }
 
 main#FEEDBACK form select{
@@ -625,15 +614,6 @@ main#FEEDBACK form select option{
     font-family: 'Times New Roman', Times, serif;
 }
 
-main#FEEDBACK form input#idade{
-    width: 2.2em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-main#FEEDBACK form input{
-    margin-bottom: 2em;
-}
-
 main#FEEDBACK form input#nome{
     margin-right: 1em;
     width: 20.8em;
@@ -643,16 +623,21 @@ main#FEEDBACK form select#sexo{
     margin-right: 1em;
 }
 
-main#FEEDBACK form input.numero{
-    width: 6em;
-    text-align: center;
-    padding-left: 0;
+main#FEEDBACK form input#idade{
+    width: 2.2em;
     font-family: 'Times New Roman', Times, serif;
 }
 
 main#FEEDBACK form input#E-mail{
     margin-right: 2em;
     width: 18em;
+}
+
+main#FEEDBACK form input.numero{
+    width: 6em;
+    text-align: center;
+    padding-left: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main#FEEDBACK form textarea{
@@ -678,12 +663,12 @@ main#FEEDBACK form input[type="submit"]{
 
 main#FEEDBACK form input[type="submit"]:hover{
     cursor: pointer;
-    background-color: rgb(243, 220, 117);
-    color: rgb(59,47,10);
+    background-color: rgb(189, 154, 24);
+    color: black;
 }
 
 footer.SUGESTOES{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
